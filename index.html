@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <title>Domain Weather</title>
+  </head>
+  <body>
+    <div class="notification"></div>
+    <div class="main">
+      <nav>
+        <div class="header">
+          <i class="fa-solid fa-location-dot"></i>
+          <p id="location">-</p>
+        </div>
+      </nav>
+      <div class="container">
+        <h2 id="time"><i class="fa-regular fa-clock"></i></h2>
+        <div class="first-row">
+          <div class="weather-icon">
+            <img src="images/unknown.png" alt="" />
+          </div>
+          <div class="temp">
+            <h1 id="temp">-</h1>
+            <p id="feels">Feels: -</p>
+            <p id="dec"></p>
+          </div>
+        </div>
+        <div class="second-row">
+          <div class="left">
+            <div class="left-detail">
+              <p id="wind">Max.Wind: -</p>
+              <p id="humidity">Humidity: -</p>
+            </div>
+          </div>
+          <div class="right">
+            <div class="right-detail">
+              <p id="pressure">Pressure: -</p>
+              <p id="visibility">Visibility: -</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="result"></div>
+      <div id="instructions"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  width: 340px;
+  border: 2px solid #333;
+  background-color: #f9fcff;
+  background-image: linear-gradient(147deg, #f9fcff 0%, #dee4ea 74%);
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+nav .header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 2px solid #333;
+  padding: 1rem 0;
+  font-size: 1.3rem;
+  gap: 0.5rem;
+}
+
+nav .header i {
+  color: red;
+}
+
+.container .first-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 1rem;
+}
+
+.container .second-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+.container .second-row .left {
+  display: flex;
+  align-items: center;
+}
+
+.container h2 {
+  text-align: center;
+}
+
+.temp h1 {
+  font-size: 2.5rem;
+}
+
+#dec {
+  color: rebeccapurple;
+  text-align: center;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+#feels {
+  font-size: 1.3rem;
+}
+
+.fa-temperature-half {
+  color: royalblue;
+}
+
+.left-detail p {
+  font-size: 1rem;
+  padding: 0.1rem 0;
+}
+
+.right-detail p {
+  font-size: 1rem;
+  padding: 0.1rem 0;
+}
+
+#result {
+  text-align: center;
+  font-size: 0.7rem;
+  padding: 0.5rem 0;
+}
+
+.fa-solid {
+  padding-right: 0.2rem;
+}
+
+.fa-eye {
+  color: darkblue;
+}
+
+.fa-arrow-down-short-wide {
+  color: rgb(238, 165, 165);
+}
+
+.fa-wind {
+  color: rgb(158, 158, 158);
+}
+
+.fa-droplet {
+  color: blue;
+}

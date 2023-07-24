@@ -1,0 +1,18 @@
+{
+    "name": "Domain Weather",
+    "version": "1.0",
+    "manifest_version": 3,
+    "description": "the Weather in Chrome extension is a great way to get the weather forecast without having to open a separate app or website. It's free to use, easy to use, and offers a variety of features.",
+    "permissions": [
+        "geolocation"
+    ],
+    "action": {
+        "default_popup": "index.html"
+    },
+    "icons": {
+        "16": "icons/logo_16.png",
+        "24": "icons/logo_24.png",
+        "32": "icons/logo_32.png",
+        "64": "icons/logo_64.png"
+    }
+}
